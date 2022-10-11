@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h1, h2,h3{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+ol,p,ul{
+    font-size: 1.125rem;
+    margin-top: 1rem;
+}
+p a{
+    color:#fff;
+    background-color: #3d4451;
+}
+hr{
+    border-top: 4px dashed white;
+}
+pre {
+    transform: translateZ(0);
+    min-width: 100%;
+    float: left;
+    background-color: #3d4451;
+    color: #f5f3ed;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  pre > span {
+    display: block;
+  }
+  span.linenumber { display: none; }
